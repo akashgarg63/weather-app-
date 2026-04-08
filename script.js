@@ -35,9 +35,7 @@ async function getWeather() {
          document.body.style.background =
            "linear-gradient(135deg, #f7971e, #ffd200)";
        }
-         else if (temp < 40) {
-            "linear-gradient(135deg, #ff512f, #dd2476)";
-         }
+        
         else {
          document.body.style.background =
            "linear-gradient(135deg, #ff4242, #ff0000)";
